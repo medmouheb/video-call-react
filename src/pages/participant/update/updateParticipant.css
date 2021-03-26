@@ -1,0 +1,63 @@
+.update_paticipant{
+    width: 500px;
+    text-align: center;
+    }
+    .update_paticipant input, select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      .update_paticipant  label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      .update_paticipant input[type=submit] {
+        background-color: #10911b;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        width: 50%;
+
+      }
+      
+      .update_paticipant  input[type=submit]:hover {
+        background-color: #45a049;
+        width: 50%;
+      }
+      
+      .update_paticipant  .container {
+        border-radius: 5px;
+        background-color: #10911b;
+        padding: 20px;
+      }
+      
+      .update_paticipant  .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .update_paticipant   .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .update_paticipant  .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .update_paticipant  .submit_button{
+        display: flex;
+        justify-content: center;
+        
+      }

@@ -1,0 +1,62 @@
+.participant_table{
+  font-weight: bold;
+}
+.participant_table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid chartreuse;
+  }
+  
+  .participant_table  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  .participant_table  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .participant_table .add_button{
+    background-color: springgreen;
+    border-color: chartreuse;
+    border-radius: 15px;
+    font-size: large;
+    padding: 10px;
+    margin: 20px;
+}
+.participant_table .action_buttons{
+    display: flex;
+    
+}
+.participant_table .action_buttons > button{
+    margin: 5px;
+    border-radius: 50px;
+    width:min-content;
+}
+.participant_table .delete_button{
+    background-color: red;
+}
+.participant_table .edit_button{
+    background-color: salmon;
+}
+
+.participant_table  .pagination {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+}
+
+.participant_table    .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.participant_table    .pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.participant_table   .pagination a:hover:not(.active) {background-color: #ddd;}

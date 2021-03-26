@@ -1,0 +1,62 @@
+.creaction_chef{
+width: 500px;
+text-align: center;
+}
+.creaction_chef input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .creaction_chef  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .creaction_chef input[type=submit] {
+    background-color: #10911b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 50%;
+
+  }
+  
+  .creaction_chef  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .creaction_chef  .container {
+    border-radius: 5px;
+    background-color: #10911b;
+    padding: 20px;
+  }
+  
+  .creaction_chef  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .creaction_chef   .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .creaction_chef  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .submit_button{
+    display: flex;
+    justify-content: center;
+    
+  }
